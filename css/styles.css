@@ -1,0 +1,40 @@
+@import "title.css";
+@import "navigation.css";
+@import "hero2.css";
+@import "slider.css";
+
+body {
+    margin: 0;
+    font-family: Nunito Sans;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.hero-block {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
