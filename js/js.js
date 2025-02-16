@@ -80,7 +80,7 @@ function initSlider(options) {
 
   function initNavs() {
     images.forEach((image, index) => {
-        let nav = `<li class="slider_navigation_item navigation__item n${index} ${index === 0? "active" : ""}" data-index="${index}""><a href="#">${images[index].city}</a></li>`;
+        let nav = `<li class="slider_navigation_item navigation__item n${index} ${index === 0? "active" : ""} title" data-index="${index}""><a href="#">${images[index].city}</a></li>`;
         sliderNavs.innerHTML += nav;
       });
       sliderNavs.querySelectorAll(".slider_navigation_item").forEach(nav => {

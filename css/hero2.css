@@ -1,6 +1,7 @@
 .hero2 {
     padding-top: 107px;
     padding-bottom: 127px;
+    height: 100vh;
 }
 
 .hero2-nav {
@@ -62,10 +63,11 @@
 
 .slider__arrows {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
 }
 
 .slider_navigation_item.active a{
     color: #E3B873;
     text-decoration: underline;
+    text-underline-offset: 6.68px;
 }
